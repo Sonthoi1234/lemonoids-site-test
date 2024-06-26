@@ -28,32 +28,44 @@
     transition: 0.2s;
 }
 
-#bug:hover {
-    border-color: #eb76b6;
-    border-radius: 8px;
-    transition: 0.15s;
-}
-
-#beta:hover {
-    border-color: #477279;
-    border-radius: 8px;
-    transition: 0.15s;
-}
-
-#smallbeta:hover {
-    border-color: #dd4ed1;
-    border-radius: 8px;
-    transition: 0.15s;
-}
-
-#minor:hover {
-    border-color: #F38A38;
+#ultimate:hover {
+    border-color: #0CCA4A;
     border-radius: 8px;
     transition: 0.15s;
 }
 
 #major:hover {
-    border-color: #0CCA4A;
+    border-color: #fecc02;
+    border-radius: 8px;
+    transition: 0.15s;
+}
+
+#minor:hover {
+    border-color: #f37338;
+    border-radius: 8px;
+    transition: 0.15s;
+}
+
+#beta:hover {
+    border-color: #634779;
+    border-radius: 8px;
+    transition: 0.15s;
+}
+
+#smallbeta:hover {
+    border-color: #ca4edd;
+    border-radius: 8px;
+    transition: 0.15s;
+}
+ 
+#alpha:hover {
+    border-color: #993300;
+    border-radius: 8px;
+    transition: 0.15s;
+}
+
+#smallalpha:hover {
+    border-color: #c45911;
     border-radius: 8px;
     transition: 0.15s;
 }
@@ -82,12 +94,10 @@
     transition: 0.15s;
 }
 
-.badge-bug {
-    background-color: #76c4eb;
-    color: white;
-    padding: 4px 8px;
-    text-align: center;
-    border-radius: 5px;
+#bug:hover {
+    border-color: #76c4eb;
+    border-radius: 8px;
+    transition: 0.15s;
 }
 
 .badge-glitch {
@@ -98,8 +108,16 @@
     border-radius: 5px;
 }
 
-.badge-minor {
-    background-color: #f37338;
+.badge-bug {
+    background-color: #76c4eb;
+    color: white;
+    padding: 4px 8px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.badge-ultimate {
+    background-color: #0CCA4A;
     color: white;
     padding: 4px 8px;
     text-align: center;
@@ -107,7 +125,15 @@
 }
 
 .badge-major {
-    background-color: #0CCA4A;
+    background-color: #fecc02;
+    color: white;
+    padding: 4px 8px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.badge-minor {
+    background-color: #f37338;
     color: white;
     padding: 4px 8px;
     text-align: center;
@@ -154,8 +180,17 @@
     border-radius: 5px;
 }
 
-.badge-notfixed {
-    background-color: #ff0000;
+.badge-fixed {
+    background-color: #0fb100;
+    color: white;
+    padding: 4px 8px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+
+.badge-intended {
+    background-color: #ffd900;
     color: white;
     padding: 4px 8px;
     text-align: center;
@@ -170,16 +205,8 @@
     border-radius: 5px;
 }
 
-.badge-fixed {
-    background-color: #0fb100;
-    color: white;
-    padding: 4px 8px;
-    text-align: center;
-    border-radius: 5px;
-}
-
-.badge-intended {
-    background-color: #ffd900;
+.badge-notfixed {
+    background-color: #ff0000;
     color: white;
     padding: 4px 8px;
     text-align: center;
@@ -218,3 +245,4 @@ h3 span {
     text-align: center;
     border-radius: 5px;
 }
+
