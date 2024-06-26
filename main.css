@@ -70,20 +70,28 @@
     transition: 0.15s;
 }
 
+#intended:hover {
+    border-color: #ffd900;
+    border-radius: 8px;
+    transition: 0.15s;
+}
+
 #fixed:hover {
     border-color: #0fb100;
     border-radius: 8px;
     transition: 0.15s;
 }
 
-#intended:hover {
-    border-color: #91ff00;
-    border-radius: 8px;
-    transition: 0.15s;
+.badge-bug {
+    background-color: #76c4eb;
+    color: white;
+    padding: 4px 8px;
+    text-align: center;
+    border-radius: 5px;
 }
 
-.badge-bug {
-    background-color: #eb76b6;
+.badge-glitch {
+    background-color: #2f5fff;
     color: white;
     padding: 4px 8px;
     text-align: center;
@@ -91,23 +99,7 @@
 }
 
 .badge-minor {
-    background-color: #F38A38;
-    color: white;
-    padding: 4px 8px;
-    text-align: center;
-    border-radius: 5px;
-}
-
-.badge-beta {
-    background-color: #477279;
-    color: white;
-    padding: 4px 8px;
-    text-align: center;
-    border-radius: 5px;
-}
-
-.badge-smallbeta {
-    background-color: #dd4ed1;
+    background-color: #f37338;
     color: white;
     padding: 4px 8px;
     text-align: center;
@@ -116,6 +108,46 @@
 
 .badge-major {
     background-color: #0CCA4A;
+    color: white;
+    padding: 4px 8px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.badge-ultimate {
+    background-color: #fecc02;
+    color: white;
+    padding: 4px 8px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.badge-beta {
+    background-color: #634779;
+    color: white;
+    padding: 4px 8px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.badge-smallbeta {
+    background-color: #ca4edd;
+    color: white;
+    padding: 4px 8px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.badge-alpha {
+    background-color: #993300;
+    color: white;
+    padding: 4px 8px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.badge-smallalpha {
+    background-color: #c45911;
     color: white;
     padding: 4px 8px;
     text-align: center;
@@ -147,15 +179,7 @@
 }
 
 .badge-intended {
-    background-color: #91ff00;
-    color: white;
-    padding: 4px 8px;
-    text-align: center;
-    border-radius: 5px;
-}
-
-.badge-glitch {
-    background-color: #ff2faf;
+    background-color: #ffd900;
     color: white;
     padding: 4px 8px;
     text-align: center;
@@ -163,7 +187,7 @@
 }
 
 .download {
-    background-color: #3F88C5;
+    background-color: #6a3fc5;
     color: white;
     padding: 4px 8px;
     text-align: center;
