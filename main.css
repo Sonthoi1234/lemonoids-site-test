@@ -1,0 +1,196 @@
+@import url('https://rsms.me/inter/inter.css');
+
+@supports (font-variation-settings: normal) {
+    html {
+        font-family: 'Inter var', sans-serif;
+    }
+}
+
+#title {
+    font-family: 'Inter var';
+    font-style: italic;
+    font-weight: 800;
+    font-size: 72px;
+    text-align: center;
+    color: #2DC7FF;
+}
+
+#container {
+    padding: 16px 16px
+}
+
+.card {
+    margin: 16px 16px;
+
+    border-style: solid;
+    border-color: rgb(35, 35, 35);
+    border-radius: 4px;
+    transition: 0.2s;
+}
+
+#bug:hover {
+    border-color: #eb76b6;
+    border-radius: 8px;
+    transition: 0.15s;
+}
+
+#beta:hover {
+    border-color: #477279;
+    border-radius: 8px;
+    transition: 0.15s;
+}
+
+#smallbeta:hover {
+    border-color: #dd4ed1;
+    border-radius: 8px;
+    transition: 0.15s;
+}
+
+#minor:hover {
+    border-color: #F38A38;
+    border-radius: 8px;
+    transition: 0.15s;
+}
+
+#major:hover {
+    border-color: #0CCA4A;
+    border-radius: 8px;
+    transition: 0.15s;
+}
+
+#notfixed:hover {
+    border-color: #ff0000;
+    border-radius: 8px;
+    transition: 0.15s;
+}
+
+#inprogress:hover {
+    border-color: #ff6600;
+    border-radius: 8px;
+    transition: 0.15s;
+}
+
+#fixed:hover {
+    border-color: #0fb100;
+    border-radius: 8px;
+    transition: 0.15s;
+}
+
+#intended:hover {
+    border-color: #91ff00;
+    border-radius: 8px;
+    transition: 0.15s;
+}
+
+.badge-bug {
+    background-color: #eb76b6;
+    color: white;
+    padding: 4px 8px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.badge-minor {
+    background-color: #F38A38;
+    color: white;
+    padding: 4px 8px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.badge-beta {
+    background-color: #477279;
+    color: white;
+    padding: 4px 8px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.badge-smallbeta {
+    background-color: #dd4ed1;
+    color: white;
+    padding: 4px 8px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.badge-major {
+    background-color: #0CCA4A;
+    color: white;
+    padding: 4px 8px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.badge-notfixed {
+    background-color: #ff0000;
+    color: white;
+    padding: 4px 8px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.badge-inprogress {
+    background-color: #ff6600;
+    color: white;
+    padding: 4px 8px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.badge-fixed {
+    background-color: #0fb100;
+    color: white;
+    padding: 4px 8px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.badge-intended {
+    background-color: #91ff00;
+    color: white;
+    padding: 4px 8px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.badge-glitch {
+    background-color: #ff2faf;
+    color: white;
+    padding: 4px 8px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.download {
+    background-color: #3F88C5;
+    color: white;
+    padding: 4px 8px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.container {
+    padding: 2px 16px;
+}
+
+h3 span {
+    background:#ffffff; 
+    padding:0 10px; 
+}
+
+#major-heading {
+    width: 100%; 
+    text-align: left; 
+    border-bottom: 1.5px solid #000; 
+    line-height: 0.1em;
+    margin: 10px 0 20px; 
+}
+
+.badge-channel {
+    background-color: #6b7ae8ab;
+    color: white;
+    padding: 4px 8px;
+    text-align: center;
+    border-radius: 5px;
+}
